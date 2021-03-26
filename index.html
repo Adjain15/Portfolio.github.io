@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="styleportfolio.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
   <title>Portfolio</title>
 </head>
@@ -17,6 +20,9 @@
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#Aboutme">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#Skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link active" aria-current="page" href="#Projects">Projects</a>
@@ -41,19 +47,81 @@
     </div>
   </section>
   <br>
-  <section class="mid-section">
+  <section class="mid-section" id="Aboutme">
     <div class="mid-container">
       <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
           <img class="bot-image" src="https://image.freepik.com/free-vector/robot-icon-bot-sign-design-chatbot-symbol-concept-voice-support-service-bot-online-support-bot-vector-stock-illustration_100456-34.jpg" >
         </div>
         <div class="col-lg-9 col-md-8 col-sm-6 col-xs-12">
-          <h2 id="Aboutme">ABOUT ME</h2>
+          <h2 >ABOUT ME</h2>
           <hr>
           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum sed quia, voluptatum deleniti dolor rem deserunt commodi debitis. Consequatur nesciunt dicta nihil! Iusto beatae deleniti saepe placeat, esse provident perferendis?
             Lorem, ipsum dolor sit amet consectetur adipisicing elit. Laboriosam voluptates dolorem sint excepturi, dolore reiciendis, ullam repellat eveniet necessitatibus magni qui nam modi doloremque magnam, fugiat nostrum consequuntur officiis dignissimos.
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti error cum iste doloremque rem, molestias aut quis dignissimos a numquam quas delectus quaerat iusto doloribus suscipit voluptatem animi sed tempora?
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti error cum iste doloremque rem, molestias aut quis dignissimos a numquam quas delectus quaerat iusto doloribus suscipit voluptatem animi sed tempora? 
           </p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="skills-section" id="Skills">
+    <div class="skills-container">
+      <h3><center>My Skills</center></h2>
+     
+      <div class="row skills-row">
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 skills-col">
+          <div class="skills-box">
+            <div class="skills-col-container">
+              <img src="https://cdn.worldvectorlogo.com/logos/html5.svg" class="skills-img">
+            </div>
+            <p>HTML</p>
+          </div>
+          <p>HTML stands for Hyper Text Markup Language. HTML is the standard markup language for creating Web pages.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 skills-col">
+          <div class="skills-box">
+            <div class="skills-col-container">
+              <img src="https://www.kindpng.com/picc/m/464-4640184_css3-png-download-css-icon-transparent-png.png" class="skills-img">
+            </div>
+            <p>CSS</p>
+          </div>
+          <p>CSS stands for Cascading Style Sheets. Css decribe how HTML elements are to be displayed on screen, paper, or in other media.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 skills-col">
+          <div class="skills-box">
+            <div class="skills-col-container">
+              <img src="https://cdn.worldvectorlogo.com/logos/c.svg" class="skills-img">
+            </div>
+            <p>C++</p>
+          </div>
+          <p>C++ is a general-purpose programming language that was developed as an enhancement of the C language to include object-oriented paradigm.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 skills-col">
+          <div class="skills-box">
+            <div class="skills-col-container">
+              <img src="https://cdn.shortpixel.ai/client/q_lossless,ret_img,w_300,h_300/https://existek.com/wp-content/uploads/2018/02/ai-programming-language-PYTHON-image-300x300.png" class="skills-img">
+            </div>
+            <p>PYTHON</p>
+          </div>
+          <p>Python is a widely used general purpose, high level programming language. It was desgined with an emplasis on code readability with its notable use of significant indentation.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 skills-col">
+          <div class="skills-box">
+            <div class="skills-col-container">
+              <img src="https://download.logo.wine/logo/MySQL/MySQL-Logo.wine.png" class="skills-img">
+            </div>
+            <p>MySQL</p>
+          </div>
+          <p>MySQL is a fast, easy-to-use RDBMS being used for many small and big businesses. MySQL is developed, marketed and supported by MySQL AB, which is a Swedish company.</p>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-6 col-xs-12 skills-col">
+          <div class="skills-box">
+            <div class="skills-col-container">
+              <img src="https://cdn.iconscout.com/icon/free/png-64/javascript-1-225993.png" class="skills-img">
+            </div>
+            <p>JAVASCRIPT</p>
+          </div>
+          <p>JavaScript is a cross-platform, object-oriented scripting language used to make webpages interactive.</p>
         </div>
       </div>
     </div>
@@ -64,46 +132,85 @@
         <h2 id="Projects">PROJECT</h2>
       <p>These are some project that I worked on</p>
       </center>
-      <div class="row">
+      <div class="row" >
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 col-container">
-          <div class="img-container">
-            <a href="https://adjain15.github.io/Portfolio.github.io/">
+          <div class="img-container"data-aos="zoom-in">
+            <a href="Portfolio.html">
             <img class="project-image"  src="https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/08/20142505/best-homepage-30.png" alt="">
             </a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 col-container">
-          <div class="img-container">
-            <a href="https://adjain15.github.io/Portfolio.github.io/"><img class="project-image" src="https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/08/20142343/best-homepage-102.png" alt="">
+          <div class="img-container"data-aos="zoom-in">
+            <a href="Portfolio.html"><img class="project-image" src="https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/08/20142343/best-homepage-102.png" alt="">
             </a>  
           </div>  
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 col-container">
-          <div class="img-container">
-            <a href="https://adjain15.github.io/Portfolio.github.io/">
+          <div class="img-container"data-aos="zoom-in">
+            <a href="Portfolio.html">
               <img class="project-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTRtGDmq6kgxYKh5k_4do_xAA5qoMnG3MD-DA&usqp=CAU" alt="">
             </a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 col-container">
-          <div class="img-container">
-            <a href="https://adjain15.github.io/Portfolio.github.io/">
-              <img class="project-image" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGF29xQaTWXfuM3mbZpGVHEgDR4pCYntDbsg&usqp=CAU" alt="">
+          <div class="img-container" data-aos="zoom-in">
+            <a href="Portfolio.html">
+              <img class="project-image" src="https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/08/20142343/best-homepage-102.png" alt="">
             </a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 col-container">
-          <div class="img-container">
-            <a href="https://adjain15.github.io/Portfolio.github.io/">
+          <div class="img-container" data-aos="zoom-in">
+            <a href="Portfolio.html">
             <img class="project-image" src="https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/08/20142434/best-homepage-221.png">
             </a>
           </div>
         </div>
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12 col-container">
-          <div class="img-container">
-            <a href="https://adjain15.github.io/Portfolio.github.io/">
+          <div class="img-container" data-aos="zoom-in">
+            <a href="Portfolio.html">
             <img class="project-image" src="https://ceblog.s3.amazonaws.com/wp-content/uploads/2018/08/20144941/best-homepage-27-min.png">
             </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="contact" id="Contact">
+    <div class="contact-container">
+      <div class="row">
+        <div class="col-lg-8 col-md-8 col-sm-12 col-xs-12 contact-col-container" data-aos="fade-right">
+          <h6 style="float: left;">Leave a Reply</h6>
+          <form action="https://getform.io/f/b3c91018-d4b1-4e43-9ed2-457996a8f210" method="POST" enctype="multipart/form-data" autocomplete="off" name="ContactForm" id="ContactForm">
+            <label for="Name" >Name</label>
+            <input type="text" id="Name" name="Name" required>
+            <label for="Email">Email</label>
+            <input type="email" name="Email" id="Email">
+            <label for="comment">Comment</label>
+            <textarea name="Comment" id="comment" cols="30" rows="9"></textarea>
+            <input type="submit" value="Submit" name="Submit" class="Submit" onclick="SubmitForm()">
+          </form>
+        </div>
+        <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12 contact-col-container" data-aos="fade-right">
+          <div class="contact-info-container">
+            <div class="contact-info">
+              <h6>Contact Info</h6>
+              <p>Call me on 9993732697</p>
+            </div>
+            <div class="contact-info">
+              <h6>Write me on</h6>
+              <p>adityajain1510@gmail.com</p>
+            </div>
+            <div class="contact-info">
+              <ul class="contact-ul">
+                <div class="contact-info-div">
+                  <li class="contact-li"><a href="https://www.facebook.com/profile.php?id=100009273000548" class="fa fa-facebook"></a></li>
+                  <li class="contact-li"><a href="https://www.linkedin.com/in/aditya-jain-9aaa881b8" class="fa fa-linkedin"></a></li>
+                  <li class="contact-li"><a href="https://instagram.com/addi_jain_?igshid=fvi8bgt1jy11" class="fa fa-instagram"></a></li>
+                </div>
+              </ul>
+            </div>
           </div>
         </div>
       </div>
@@ -112,16 +219,19 @@
   <footer class="footer-container">
       <div class="footer-div">
         <div class="copyright">
-          <p>COPYRIGHT-2021 Aditya Jain</p>
-        </div>
-        <div class="contact" id="Contact">
-          <button class="fa-facebook">facebook</button>
-          <button class="fa-linkedin">linked-in</button>
-          <button class="fa-google">Google</button>
+          <center><p>COPYRIGHT-2021 Aditya Jain</p></center>
         </div>
       </div>
   </footer>
   <script src="project.js"></script>
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration:500
+    });
+    
+  </script>
+  
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
 </body>
 </html>
